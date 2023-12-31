@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Task 2</title>
+  </head>
+  <body>
+    <h1>Кого или что будем искать?</h1>
+    <form name="form">
+      <select id="user_choice">
+        <option value="Фильмы">Фильмы</option>
+        <option value="Люди">Люди</option>
+        <option value="Планеты">Планеты</option>
+        <option value="Расы">Расы</option>
+        <option value="Звездолеты">Звездолеты</option>
+        <option value="Транспорты">Транспорты</option>
+      </select>
+      <input id="id" type="number" placeholder="Введите номер" />
+      <button id="btn">Вперёд!</button>
+    </form>
+    <div>
+      <div id="div"></div>
+      <h4 id="error"></h4>
+    </div>
+    <script src="Task2.js"></script>
+  </body>
+</html>
